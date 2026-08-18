@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trouver mon écran — FouxyTek Auto</title>
+<meta name="description" content="Marque, modèle, année : trouvez l'écran CarPlay ou Android compatible avec votre véhicule japonais.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="configurateur">
+<header class="hdr" id="site-header"></header>
+
+<section class="pbanner"><div class="wrap">
+  <div class="crumb"><a href="index.html">Accueil</a> / Trouver mon écran</div>
+  <span class="eyebrow">La fonction signature</span>
+  <h1>Trouvez l'écran fait pour votre véhicule</h1>
+  <p>Marque, modèle, année — on vous dit tout de suite l'écran compatible et sa taille idéale.</p>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="config">
+    <div class="config__form">
+      <div class="step"><div class="step__label"><span class="step__num">1</span> Marque</div>
+        <div class="select"><select id="brand"><option value="">Choisir la marque…</option></select></div></div>
+      <div class="step"><div class="step__label"><span class="step__num">2</span> Modèle</div>
+        <div class="select"><select id="model" disabled><option value="">Sélectionnez d'abord une marque</option></select></div></div>
+      <div class="step"><div class="step__label"><span class="step__num">3</span> Année</div>
+        <div class="select"><select id="year" disabled><option value="">Sélectionnez d'abord un modèle</option></select></div></div>
+      <p class="config__hint">👆 Choisissez la marque — le modèle puis l'année s'activent automatiquement.</p>
+    </div>
+    <div class="config__result" id="reco">
+      <div class="config__idle"><img src="assets/img/prod-t100.jpg" alt="Écran CarPlay recommandé"><div class="config__idle-txt"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 18v2M18 18v2"/></svg>Complétez les 3 étapes pour découvrir l'écran idéal pour votre véhicule.</div></div>
+    </div>
+  </div>
+
+  <div class="photocta reveal" style="margin-top:24px">
+    <div>
+      <span class="eyebrow">Pas sûr de votre modèle ?</span>
+      <h3>📸 Envoyez une photo de votre tableau de bord</h3>
+      <p>Le trim, l'année et l'autoradio d'origine changent la compatibilité. Envoyez-nous une photo — notre équipe identifie l'écran idéal pour vous.</p>
+    </div>
+    <a class="btn btn--wa" href="https://wa.me/243900413725?text=Bonjour%20FouxyTek%20%F0%9F%91%8B%20Voici%20une%20photo%20de%20mon%20tableau%20de%20bord%2C%20quel%20%C3%A9cran%20me%20conseillez-vous%20%3F" target="_blank" rel="noopener">Envoyer une photo sur WhatsApp</a>
+  </div>
+</div></section>
+
+<section class="section section--tint"><div class="wrap">
+  <div class="section__head reveal"><span class="eyebrow">Bon à savoir</span><h2>Comment on choisit la taille</h2></div>
+  <div class="steps3">
+    <div class="stepbox reveal"><b>7″</b><h3>Compact &amp; installation d'origine</h3><p>S'intègre discrètement quand l'emplacement d'origine est réduit — idéal pour garder un look d'usine.</p></div>
+    <div class="stepbox reveal"><b>9″</b><h3>L'option la plus populaire</h3><p>Le meilleur équilibre taille / lisibilité — le format que la plupart de nos clients choisissent.</p></div>
+    <div class="stepbox reveal"><b>10″</b><h3>Grand écran, expérience premium</h3><p>Plus d'espace pour la navigation, la caméra et le multitâche — l'effet « cockpit moderne ».</p></div>
+  </div>
+  <p style="margin-top:22px;color:var(--mut);font-size:14px;text-align:center;max-width:640px;margin-left:auto;margin-right:auto">La compatibilité dépend du tableau de bord, du cadre de montage et de l'autoradio d'origine de votre véhicule. Utilisez le configurateur ci-dessus pour vérifier.</p>
+</div></section>
+
+<footer class="foot" id="site-footer"></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
