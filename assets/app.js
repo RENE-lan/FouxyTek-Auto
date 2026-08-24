@@ -2,7 +2,7 @@
 const WA   = "243900413725";                 // WhatsApp Business
 const TEL  = "+243821658060";                 // ligne d'appel
 const FB   = "https://web.facebook.com/profile.php?id=61580159690085";
-const TIKTOK = "https://www.tiktok.com/@foxitech";   // TODO: confirmer le handle exact
+const TIKTOK = "https://www.tiktok.com/@fouxytekauto";
 const EMAIL= "contact@fouxytekauto.com";       // TODO: remplacer par l'e-mail réel
 const LOGO = "assets/img/logo.png";
 
@@ -326,7 +326,7 @@ function chrome(){
         <div><h4>Contact</h4>
           <a href="https://wa.me/${WA}" target="_blank" rel="noopener">WhatsApp · +243 900 413 725</a>
           <a href="mailto:${EMAIL}">${EMAIL}</a>
-          <a href="${TIKTOK}" target="_blank" rel="noopener">TikTok · @foxitech</a>
+          <a href="${TIKTOK}" target="_blank" rel="noopener">TikTok · @fouxytekauto</a>
           <a href="${FB}" target="_blank" rel="noopener">Facebook · FouxyTek</a>
           <a href="contact.html">Lubumbashi · Lun–Sam 08h–18h</a></div>
       </div>
