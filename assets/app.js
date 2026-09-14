@@ -66,8 +66,11 @@ const DICT={
 "Commandes au volant conservées":{en:"Steering-wheel controls kept",sw:"Vidhibiti vya usukani vinabaki"},
 "Commander le T100":{en:"Order the T100",sw:"Agiza T100"},
 // split
+<<<<<<< HEAD
 "Un son à la hauteur de votre style.":{en:"Sound that matches your style.",sw:"Sauti inayolingana na mtindo wako."},
 "Voir tous les produits audio →":{en:"See all sound products →",sw:"Ona bidhaa zote za sauti →"},
+=======
+>>>>>>> 38d7dba69e91e32be0ea5e7ce97e0c959da65435
 "Nos écrans":{en:"Our screens",sw:"Skrini zetu"},
 "Le bon format pour chaque tableau de bord":{en:"The right size for every dashboard",sw:"Ukubwa sahihi kwa kila dashibodi"},
 "Du compact 7″ au grand format 10″ et au Premium 12,3″ — CarPlay sans fil, Android Auto, GPS, Bluetooth et caméra de recul. Une connexion stable, testée sur route.":{en:"From the compact 7″ to the large 10″ and the Premium 12.3″ — wireless CarPlay, Android Auto, GPS, Bluetooth and reverse camera. A stable connection, road-tested.",sw:"Kutoka 7″ ndogo hadi 10″ kubwa na Premium 12.3″ — CarPlay bila waya, Android Auto, GPS, Bluetooth na kamera ya nyuma. Muunganisho thabiti, uliojaribiwa barabarani."},
@@ -165,7 +168,10 @@ const DICT={
 "On choisit l'écran":{en:"We choose the screen",sw:"Tunachagua skrini"},"On installe":{en:"We install",sw:"Tunafunga"},"Vous roulez connecté":{en:"You drive connected",sw:"Unaendesha ukiwa umeunganishwa"},
 // products
 "Tout":{en:"All",sw:"Zote"},"Écrans Android":{en:"Android screens",sw:"Skrini za Android"},"CarPlay":{en:"CarPlay",sw:"CarPlay"},
+<<<<<<< HEAD
 "Son":{en:"Sound",sw:"Sauti"},
+=======
+>>>>>>> 38d7dba69e91e32be0ea5e7ce97e0c959da65435
 "Accessoires":{en:"Accessories",sw:"Vifaa"},"Entretien auto":{en:"Car care",sw:"Utunzaji wa gari"},
 "Comparatif":{en:"Comparison",sw:"Ulinganisho"},"Caractéristique":{en:"Feature",sw:"Kipengele"},
 "Prix":{en:"Price",sw:"Bei"},"Sur devis":{en:"On quote",sw:"Kwa nukuu"},"+ Ajouter":{en:"+ Add",sw:"+ Ongeza"},
@@ -220,6 +226,7 @@ const DICT={
 "Microfibres + nettoyant tableau de bord":{en:"Microfiber + dashboard cleaner",sw:"Kitambaa laini + kisafishaji cha dashibodi"},
 "Caméra de recul HD":{en:"HD reverse camera",sw:"Kamera ya nyuma ya HD"},
 "Capteurs de recul":{en:"Parking sensors",sw:"Vitambuzi vya kuegesha"},
+<<<<<<< HEAD
 "GPS Navigation":{en:"GPS Navigation",sw:"Uelekezaji wa GPS"},
 "Google Maps, Waze, navigation en ligne ou hors-ligne":{en:"Google Maps, Waze, online or offline navigation",sw:"Google Maps, Waze, uelekezaji mtandaoni au nje ya mtandao"},
 "Kit nettoyage intérieur":{en:"Interior cleaning kit",sw:"Seti ya kusafisha ndani"},
@@ -229,6 +236,11 @@ const DICT={
 "Kit 2 voies + caisson & ampli — son clair et net":{en:"2-way kit + sub & amp — clear, crisp sound",sw:"Seti ya njia 2 + sauti ya besi na kikuza — sauti safi na wazi"},
 "Caisson de basses tube":{en:"Tube subwoofer",sw:"Sauti ya besi ya tyubu"},
 "Format compact, s'installe dans le coffre":{en:"Compact size, fits in the trunk",sw:"Umbo dogo, huwekwa nyuma ya gari"},
+=======
+"Kit nettoyage intérieur":{en:"Interior cleaning kit",sw:"Seti ya kusafisha ndani"},
+"Système audio":{en:"Sound system",sw:"Mfumo wa sauti"},
+"Haut-parleurs & ampli — son clair et puissant":{en:"Speakers & amp — clear, powerful sound",sw:"Spika na ampli — sauti safi na yenye nguvu"},
+>>>>>>> 38d7dba69e91e32be0ea5e7ce97e0c959da65435
 "Nouveau · Entretien auto":{en:"New · Car care",sw:"Mpya · Utunzaji wa gari"},
 "La gamme CRE WASH est arrivée.":{en:"The CRE WASH range has arrived.",sw:"Safu ya CRE WASH imefika."},
 "Shampooing Auto Premium, mousse active pour l'extérieur et lavage moteur — le nettoyage premium signé CRE WASH, disponible chez FouxyTek.":{en:"Premium Car Shampoo, active foam for the exterior and engine wash — premium cleaning by CRE WASH, available at FouxyTek.",sw:"Shampuu ya Gari Premium, povu hai kwa nje na usafishaji wa injini — usafi wa hali ya juu wa CRE WASH, unapatikana FouxyTek."},
@@ -391,12 +403,18 @@ const PRODUCTS=[
   {name:"Écran Android 7″",cat:"android",size:"7″",feat:"Idéal petits véhicules · Bluetooth · radio",stock:"ok",icon:"screen"},
   {name:"Écran Android 9″",cat:"android",size:"9″",feat:"Le best-seller · fluide · WiFi · GPS",stock:"ok",icon:"screen"},
   {name:"Écran Android 10″",cat:"android",size:"10″",feat:"Grand format, processeur rapide, 4 Go RAM",stock:"out",icon:"screen"},
+<<<<<<< HEAD
   {name:"Caisson de basses amplifié",cat:"audio",feat:"Caisson actif compact, sous siège — basses puissantes",stock:"ok",img:"audio-sub-amp.jpg"},
   {name:"Kit haut-parleurs Hi-Fi",cat:"audio",feat:"Kit 2 voies + caisson & ampli — son clair et net",stock:"ok",img:"audio-kit-hifi.jpg"},
   {name:"Caisson de basses tube",cat:"audio",feat:"Format compact, s'installe dans le coffre",stock:"ok",img:"audio-sub-tube.jpg"},
   {name:"Caméra de recul HD",cat:"accessoire",feat:"Vision nocturne, étanche, lignes de guidage",stock:"ok",icon:"cam"},
   {name:"Capteurs de recul",cat:"accessoire",feat:"4 capteurs, alerte sonore de proximité",stock:"ok",icon:"sensor"},
   {name:"GPS Navigation",cat:"accessoire",feat:"Google Maps, Waze, navigation en ligne ou hors-ligne",stock:"ok",img:"acc-gps-nav.jpg"},
+=======
+  {name:"Système audio",cat:"accessoire",feat:"Haut-parleurs & ampli — son clair et puissant",stock:"ok",icon:"audio"},
+  {name:"Caméra de recul HD",cat:"accessoire",feat:"Vision nocturne, étanche, lignes de guidage",stock:"ok",icon:"cam"},
+  {name:"Capteurs de recul",cat:"accessoire",feat:"4 capteurs, alerte sonore de proximité",stock:"ok",icon:"sensor"},
+>>>>>>> 38d7dba69e91e32be0ea5e7ce97e0c959da65435
   {name:"CRE WASH Shampooing Auto Premium",cat:"entretien",size:"500 ml",feat:"Nettoie en profondeur, fait briller et protège",stock:"ok",img:"crewash-shampoo.jpg"},
   {name:"CRE WASH Shampooing Extérieur",cat:"entretien",size:"1 L",feat:"Mousse active · nettoyage en douceur",stock:"ok",img:"crewash-mousse.jpg"},
   {name:"CRE WASH Lavage Moteur",cat:"entretien",size:"1 L",feat:"Dégraisse en profondeur, moteur protégé",stock:"ok",img:"crewash-moteur.jpg"},
@@ -456,7 +474,11 @@ function closeDrawer(){const d=document.getElementById('drawer'),s=document.getE
 /* ============ products page ============ */
 function initProducts(){
   const grid=document.getElementById('grid');if(!grid)return;
+<<<<<<< HEAD
   const CATL={carplay:"CarPlay",android:"Écran Android",audio:"Son",accessoire:"Accessoire",entretien:"Entretien"};
+=======
+  const CATL={carplay:"CarPlay",android:"Écran Android",accessoire:"Accessoire",entretien:"Entretien"};
+>>>>>>> 38d7dba69e91e32be0ea5e7ce97e0c959da65435
   function render(cat){
     grid.innerHTML="";
     PRODUCTS.filter(p=>cat==="all"||p.cat===cat).forEach(p=>{
